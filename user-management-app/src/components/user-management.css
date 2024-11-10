@@ -50,7 +50,7 @@ button {
   align-items: center;
   gap: 5px;
   padding: 10px 15px;
-  background-color: #007bff;
+  background-color: #3c3c3c;
   color: white;
   border: none;
   border-radius: 5px;
@@ -62,7 +62,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #252525;
 }
 
 .input-area {
@@ -204,7 +204,7 @@ button:hover {
 
 .user-card-actions button {
   padding: 5px 10px;
-  background-color: #007bff;
+  background-color: #3c3c3c;
   color: white;
   border: none;
   border-radius: 5px;
@@ -212,7 +212,7 @@ button:hover {
 }
 
 .user-card-actions button:hover {
-  background-color: #0056b3;
+  background-color: #252525;
 }
 
 .user-card-item:nth-child(2) {
