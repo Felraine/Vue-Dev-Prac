@@ -64,7 +64,7 @@
           </div>
         </div>
         <div class="modal-actions">
-          <button @click="saveUser">
+          <button @click="saveUser" class="saveUser">
             {{ isEditing ? "Save Changes" : "Add User" }}
           </button>
           <button @click="closeModal" class="cancel">Cancel</button>
@@ -97,10 +97,10 @@
         <div class="user-card-item">{{ user.address }}</div>
 
         <div class="user-card-actions">
-          <button @click="editUser(index)">
+          <button @click="editUser(index)" class="editButton">
             <i class="bi bi-pencil-square"></i> Edit User
           </button>
-          <button @click="deleteUser(index)">
+          <button @click="deleteUser(index)" class="deleteButton">
             <i class="bi bi-trash"></i> Delete User
           </button>
         </div>

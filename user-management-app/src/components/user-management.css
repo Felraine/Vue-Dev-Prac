@@ -9,12 +9,13 @@ body {
   align-items: center;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   padding-bottom: 1rem;
-  padding-top: 8px;
-  background-color: #f8f8f8;
+  padding-top: 1rem;
+  background-color: rgb(11, 112, 213);
 }
 
 h1 {
   margin: 0;
+  color: #fff;
 }
 
 .search-add {
@@ -50,7 +51,6 @@ button {
   align-items: center;
   gap: 5px;
   padding: 10px 15px;
-  background-color: #3c3c3c;
   color: white;
   border: none;
   border-radius: 5px;
@@ -59,10 +59,11 @@ button {
 
 .addUser {
   margin-right: 25px;
+  background-color: #ffa726;
 }
 
 button:hover {
-  background-color: #252525;
+  background-color: #fb8c00;
 }
 
 .input-area {
@@ -151,15 +152,42 @@ button:hover {
 
 .modal-actions button {
   padding: 8px 15px;
-  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.modal-actions button:hover {
-  background-color: #0056b3;
+.saveUser {
+  background-color: #4caf50;
+}
+
+.saveUser:hover {
+  background-color: #388e3c;
+}
+
+.cancel {
+  background-color: #e53935;
+}
+
+.cancel:hover {
+  background-color: #c62828;
+}
+
+.editButton {
+  background-color: #ffa726;
+}
+
+.editButton:hover {
+  background-color: #fb8c00;
+}
+
+.deleteButton {
+  background-color: #e53935;
+}
+
+.deleteButton:hover {
+  background-color: #c62828;
 }
 
 .user-list-header {
@@ -204,15 +232,10 @@ button:hover {
 
 .user-card-actions button {
   padding: 5px 10px;
-  background-color: #3c3c3c;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.user-card-actions button:hover {
-  background-color: #252525;
 }
 
 .user-card-item:nth-child(2) {
